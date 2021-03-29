@@ -7,6 +7,7 @@ import cors from 'cors';
 import { UserService } from './service/UserService';
 import  {logger} from "./logger";
 import dotenv from 'dotenv';
+import { JwtToken } from './config/jwtToken';
 dotenv.config();
 export class UserServer {
     constructor(private userRoute: UserRouter) {
@@ -30,9 +31,9 @@ export class UserServer {
 }
 
 
-
+const userjwt = new JwtToken()
 const userdao = new UserDao()
 const userservice=new UserService(userdao)
 const usercontroller = new UserController(userservice)
-const userrouter = new UserRouter(usercontroller)
+const userrouter = new UserRouter(usercontroller,userjwt)
 new UserServer(userrouter)

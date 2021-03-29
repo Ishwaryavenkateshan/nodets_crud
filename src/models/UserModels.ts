@@ -3,11 +3,11 @@ import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
 export interface UserModel {
-    _id:string
-    userId: Number,
-    Name: String,
-    mobileNumber: Number,
-    token:String
+    _id: string
+    userId: number,
+    Name: string,
+    mobileNumber: number,
+    token: string
 }
 
 export const UserSchema = new Schema({
@@ -23,7 +23,7 @@ export const UserSchema = new Schema({
         type: Number,
         require: true
     },
-    token:{
+    token: {
         type: String
     }
 });
