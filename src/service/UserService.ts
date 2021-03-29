@@ -1,5 +1,6 @@
 import { UserDao } from "../dao/UserDao";
 import { UserModel } from "../models/UserModels";
+import * as jwt from 'jsonwebtoken';
 
 export class UserService {
    
@@ -7,6 +8,7 @@ export class UserService {
     }
   
     async userCreate(body: UserModel):Promise<UserModel | any >{
+        // token: jwt.sign(,"secretkey");
         return await this.userDao.save(body);
     }
     async userRead(id:String):Promise<UserModel | any >{

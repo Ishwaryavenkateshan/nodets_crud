@@ -9,19 +9,19 @@ export class UserDao {
         return await user.save();
     }
     async getAll() {
-        const User = UserModel.find({})
-        return await User;
+        const user = UserModel.find({})
+        return await user;
     }
-    async getById(id: String) {
+    async getById(id: string) {
         const user = UserModel.findOne({ _id: id })
         return await user;
     }
-    async userUpdate(id: String, body: UserModel) {
+    async userUpdate(id: string, body: UserModel) {
         await UserModel.findByIdAndUpdate(id, body);
         const user = UserModel.findOne({ _id: id })
         return await user;
     }
-    async userDelete(id: String) {
+    async userDelete(id: string) {
         const user = UserModel.deleteOne({ _id: id });
         return await user;
     }

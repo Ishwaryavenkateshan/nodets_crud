@@ -1,14 +1,15 @@
-import cors from 'cors';
 import express from 'express';
 import { MongoConfig } from './config/MongoConfig'
 import { UserRouter } from './routes/UserRoutes';
-import bodyParser from 'body-parser';
 import { UserController } from './controllers/UserController';
 import { UserDao } from './dao/UserDao';
+import cors from 'cors';
 import { UserService } from './service/UserService';
-
+import  {logger} from "./logger";
+import dotenv from 'dotenv';
+dotenv.config();
 export class UserServer {
-    constructor(private userRouter: UserRouter) {
+    constructor(private userRoute: UserRouter) {
         this.start();
     }
 
@@ -16,17 +17,22 @@ export class UserServer {
 
         const app: express.Application = express();
         app.use(cors());
-        app.use(bodyParser.json());
-
-        new MongoConfig();
+        app.use(express.json());
+        const mongo = new MongoConfig()
         app.get('/', (req, res) => {
             res.send({ status: "Success" });
         });
-        this.userRouter.userRouter(app)
+        this.userRoute.userRouter(app)
         app.listen(4000, () => {
-            console.log('Server running on port 4000');
+            logger.info('Server running on port 4000');
         });
     }
 }
 
-new UserServer(new UserRouter(new UserController(new UserService(new UserDao()))))
+
+
+const userdao = new UserDao()
+const userservice=new UserService(userdao)
+const usercontroller = new UserController(userservice)
+const userrouter = new UserRouter(usercontroller)
+new UserServer(userrouter)
