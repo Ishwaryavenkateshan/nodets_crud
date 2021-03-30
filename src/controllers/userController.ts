@@ -16,7 +16,7 @@ export class UserController {
             res.status(200).send(data)
         } catch (err) {
             logger.error(err)
-            if (err && err._message && err._message === 'Invalidation') {
+            if (err && err._message && err._message === 'validation error') {
                 res.status(400).send(err);
             } else {
                 res.status(500).send(err);
@@ -30,7 +30,7 @@ export class UserController {
             res.status(200).send(user)
         } catch (err) {
             logger.error(err)
-            if (err && err._message && err._message === 'Invalidation') {
+            if (err && err._message && err._message === 'validation error') {
                 res.status(400).send(err);
             } else {
                 res.status(500).send(err);
@@ -44,7 +44,7 @@ export class UserController {
             res.status(200).send(user)
         } catch (err) {
             logger.error(err)
-            if (err && err._message && err._message === 'Invalidation') {
+            if (err && err._message && err._message === 'validation error') {
                 res.status(400).send(err);
             } else {
                 res.status(500).send(err);
@@ -58,7 +58,7 @@ export class UserController {
             res.status(200).send(user)
         } catch (err) {
             logger.error(err)
-            if (err && err._message && err._message === 'Invalidation') {
+            if (err && err._message && err._message === 'validation error') {
                 res.status(400).send(err);
             } else {
                 res.status(500).send(err);
@@ -72,7 +72,7 @@ export class UserController {
             res.status(200).send(user)
         } catch (err) {
             logger.error(err)
-            if (err && err._message && err._message === 'Invalidation') {
+            if (err && err._message && err._message === 'validation error') {
                 res.status(400).send(err);
             } else {
                 res.status(500).send(err);
