@@ -1,31 +1,34 @@
 import express from 'express';
-import { MongoConfig } from './config/MongoConfig'
-import { UserRouter } from './routes/UserRoutes';
-import { UserController } from './controllers/UserController';
-import { UserDao } from './dao/UserDao';
+import { MongoConfig } from './config/mongoConfig'
+import { UserRouter } from './routes/userRoutes';
+import { UserController } from './controllers/userController';
+import { UserDao } from './dao/userDao';
 import cors from 'cors';
-import { UserService } from './service/UserService';
-import  {logger} from "./logger";
-import dotenv from 'dotenv';
+import { UserService } from './service/userService';
+import { logger } from "./logger";
+import * as dotenv from 'dotenv';
 import { JwtToken } from './config/jwtToken';
-dotenv.config();
+import { server_Info } from './utils/const';
+
+dotenv.config({ path: __dirname + '/.env' });
+
 export class UserServer {
     constructor(private userRoute: UserRouter) {
         this.start();
     }
 
     start(): void {
-
         const app: express.Application = express();
-        app.use(cors());
+        app.use(cors())
         app.use(express.json());
-        const mongo = new MongoConfig()
+
+        new MongoConfig()
         app.get('/', (req, res) => {
             res.send({ status: "Success" });
         });
         this.userRoute.userRouter(app)
-        app.listen(4000, () => {
-            logger.info('Server running on port 4000');
+        app.listen(5001, () => {
+            logger.info(server_Info);
         });
     }
 }
@@ -33,7 +36,8 @@ export class UserServer {
 
 const userjwt = new JwtToken()
 const userdao = new UserDao()
-const userservice=new UserService(userdao)
-const usercontroller = new UserController(userservice)
-const userrouter = new UserRouter(usercontroller,userjwt)
+const userservice = new UserService(userdao)
+const jwttoken = new JwtToken()
+const usercontroller = new UserController(userservice, jwttoken)
+const userrouter = new UserRouter(usercontroller, userjwt)
 new UserServer(userrouter)

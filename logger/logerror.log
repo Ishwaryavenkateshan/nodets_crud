@@ -20,3 +20,142 @@ info: Server running on port 4000
 2021-03-29T05:34:58.270Z error : Err on connection
 2021-03-29T06:03:08.819Z info : Server running on port 4000
 2021-03-29T06:03:08.892Z info : DB Connnected
+2021-03-29T07:27:44.696Z info : Server running on port 4000
+2021-03-29T07:27:44.699Z error : Err on connection
+2021-03-29T07:30:13.267Z info : Server running on port 4000
+2021-03-29T07:30:13.330Z info : DB Connnected
+2021-03-29T14:12:32.791Z info : Server running on port 4000
+2021-03-29T14:12:32.836Z info : DB Connnected
+2021-03-29T14:18:33.327Z info : Server running on port 4000
+2021-03-29T14:18:33.389Z info : DB Connnected
+2021-03-29T14:35:55.343Z info : Server running on port 4000
+2021-03-29T14:35:55.384Z info : DB Connnected
+2021-03-29T14:37:17.062Z info : Server running on port 4000
+2021-03-29T14:37:17.143Z info : DB Connnected
+2021-03-30T04:54:30.722Z info : Server running on port 4000
+2021-03-30T04:54:30.778Z info : DB Connnected
+2021-03-30T05:05:52.333Z info : Server running on port 4000
+2021-03-30T05:05:52.390Z info : DB Connnected
+2021-03-30T05:40:06.618Z info : Server running on port 4000
+2021-03-30T05:40:06.623Z error : Err on connection
+2021-03-30T05:41:08.943Z info : Server running on port 4000
+2021-03-30T05:41:08.949Z error : Err on connection
+2021-03-30T05:44:41.729Z info : Server running on port 4000
+2021-03-30T05:44:41.734Z error : Err on connection
+2021-03-30T05:45:07.919Z info : Server running on port 4000
+2021-03-30T05:45:07.925Z error : Err on connection
+2021-03-30T05:48:49.540Z info : Server running on port 4000
+2021-03-30T05:48:49.546Z error : Err on connection
+2021-03-30T05:55:01.862Z info : Server running on port 4000
+2021-03-30T05:55:01.868Z error : Err on connection
+2021-03-30T05:57:58.248Z info : Server running on port 4000
+2021-03-30T05:57:58.252Z error : Err on connection
+2021-03-30T06:04:22.349Z info : Server running on port 4000
+2021-03-30T06:04:22.420Z info : DB Connnected
+2021-03-30T06:05:04.997Z info : Server running on port 4000
+2021-03-30T06:05:05.004Z error : Err on connection
+2021-03-30T06:08:38.891Z info : Server running on port 4000
+2021-03-30T06:08:38.898Z error : Err on connection
+2021-03-30T06:11:59.368Z info : Server running on port 4000
+2021-03-30T06:11:59.415Z info : DB Connnected
+2021-03-30T06:15:06.542Z info : 
+2021-03-30T06:38:45.668Z info : Server running on port 5000
+2021-03-30T06:38:45.674Z error : Err on connection
+2021-03-30T06:40:11.707Z info : Server running on port 5000
+2021-03-30T06:40:11.712Z error : Err on connection
+2021-03-30T06:55:40.218Z info : Server running on port 5000
+2021-03-30T06:55:40.223Z error : Err on connection
+2021-03-30T06:58:10.040Z info : Server running on port 5000
+2021-03-30T06:58:10.046Z error : Err on connection
+2021-03-30T06:59:19.956Z info : Server running on port 5000
+2021-03-30T06:59:19.961Z error : Err on connection
+2021-03-30T06:59:43.363Z info : Server running on port 5000
+2021-03-30T06:59:43.423Z info : DB Connnected
+2021-03-30T07:04:52.835Z info : Server running on port 5000
+2021-03-30T07:04:52.841Z error : Err on connection
+2021-03-30T07:07:33.684Z info : Server running on port 5000
+2021-03-30T07:07:33.689Z error : Err on connection
+2021-03-30T07:14:56.546Z info : Server running on port 5000
+2021-03-30T07:14:56.555Z error : Err on connection
+2021-03-30T07:15:11.327Z info : Server running on port 5000
+2021-03-30T07:15:11.332Z error : Err on connection
+2021-03-30T07:16:48.598Z info : Server running on port 5000
+2021-03-30T07:16:48.623Z error : Err on connection
+2021-03-30T07:18:03.178Z info : Server running on port 5000
+2021-03-30T07:18:03.199Z error : Err on connection Invalid connection string
+2021-03-30T07:19:07.737Z info : Server running on port 5000
+2021-03-30T07:19:07.792Z error : Err on connection Invalid connection string
+2021-03-30T07:20:36.748Z info : Server running on port 5000
+2021-03-30T07:20:36.811Z error : Err on connection Invalid connection string
+2021-03-30T07:22:16.208Z info : Server running on port 5000
+2021-03-30T07:22:16.256Z error : Err on connection Invalid connection string
+2021-03-30T07:24:32.494Z info : Server running on port 5000
+2021-03-30T07:24:32.528Z error : Err on connection Invalid connection string
+2021-03-30T07:25:09.935Z info : Server running on port 5000
+2021-03-30T07:25:10.001Z error : Err on connection Invalid connection string
+2021-03-30T07:27:07.755Z info : Server running on port 5000
+2021-03-30T07:27:07.778Z error : Err on connection Invalid connection string
+2021-03-30T07:28:40.768Z info : Server running on port 5000
+2021-03-30T07:28:40.806Z error : Err on connection Invalid connection string
+2021-03-30T07:29:00.021Z info : Server running on port 5000
+2021-03-30T07:29:00.050Z error : Err on connection Invalid connection string
+2021-03-30T07:30:15.535Z info : Server running on port 5000
+2021-03-30T07:30:15.577Z error : Err on connection Invalid connection string
+2021-03-30T07:31:22.981Z info : Server running on port 5000
+2021-03-30T07:31:23.025Z error : Err on connection Invalid connection string
+2021-03-30T07:34:59.233Z info : Server running on port 5000
+2021-03-30T07:34:59.286Z error : Err on connection Invalid connection string
+2021-03-30T07:44:16.302Z info : Server running on port 5000
+2021-03-30T07:44:16.334Z error : Err on connection Invalid connection string
+2021-03-30T07:46:35.769Z info : Server running on port 5000
+2021-03-30T07:46:35.816Z error : Err on connection Invalid connection string
+2021-03-30T07:49:59.466Z info : Server running on port 5000
+2021-03-30T07:49:59.528Z info : DB Connnected
+2021-03-30T07:51:30.124Z info : Server running on port 5000
+2021-03-30T07:51:30.194Z info : DB Connnected
+2021-03-30T08:38:51.261Z info : Server running on port 5000
+2021-03-30T08:38:51.319Z info : DB Connnected
+2021-03-30T08:40:34.932Z info : Server running on port 5000
+2021-03-30T08:40:34.977Z info : DB Connnected
+2021-03-30T08:41:22.837Z info : Server running on port 5000
+2021-03-30T08:41:22.916Z info : DB Connnected
+2021-03-30T08:48:40.311Z info : Server running on port 5000
+2021-03-30T08:48:40.353Z info : DB Connnected
+2021-03-30T08:52:24.144Z info : 
+2021-03-30T09:04:06.999Z info : Server running on port 5000
+2021-03-30T09:04:07.055Z info : DB Connnected
+2021-03-30T09:05:41.054Z info :  running on port 5000
+2021-03-30T09:05:41.101Z info : DB Connnected
+2021-03-30T09:11:04.936Z info : 
+2021-03-30T09:14:48.786Z info : Server running on port 5000
+2021-03-30T09:14:48.827Z info : DB Connnected
+2021-03-30T09:15:30.152Z info : Server running on port 5000
+2021-03-30T09:15:30.193Z info : DB Connnected
+2021-03-30T09:15:43.756Z info : UserController-userCreate--creating user
+2021-03-30T09:19:47.297Z info : Server running on port 5000
+2021-03-30T09:19:47.353Z info : DB Connnected
+2021-03-30T09:20:06.519Z info : UserController-userCreate--creating user
+2021-03-30T09:23:14.608Z info : Server running on port 5000
+2021-03-30T09:23:14.634Z info : DB Connnected
+2021-03-30T09:25:54.658Z info : UserController-userCreate--creating user
+2021-03-30T09:28:16.818Z info : Server running on port 5000
+2021-03-30T09:28:16.855Z info : DB Connnected
+2021-03-30T09:28:44.490Z info : UserController-userRead--Getting user
+2021-03-30T09:44:35.232Z info : Server running on port 5000
+2021-03-30T09:44:35.273Z info : DB Connnected
+2021-03-30T09:45:11.302Z info : UserController-userCreate--create user
+2021-03-30T09:45:11.304Z info : UserController-userCreate--create user
+2021-03-30T10:40:42.573Z info : Server running on port 5000
+2021-03-30T10:40:42.619Z info : Database connected
+2021-03-30T10:41:31.614Z info : UserControllercalling
+2021-03-30T10:42:54.082Z info : Server running on port 5000
+2021-03-30T10:42:54.150Z info : Database connected
+2021-03-30T10:42:59.162Z info : UserController calling
+2021-03-30T10:59:27.161Z info : Server running on port 5000
+2021-03-30T10:59:27.186Z info : Database connected
+2021-03-30T10:59:34.162Z info : UserController--userCreate--calling
+2021-03-30T11:18:51.740Z info : Server running on port 5000
+2021-03-30T11:18:51.785Z info : Database connected
+2021-03-30T11:19:06.907Z info : UserController--userCreate--calling
+2021-03-30T11:19:06.908Z info : UserService--userCreate--calling
+2021-03-30T11:19:06.909Z info : UserDao--userCreate--calling

@@ -10,7 +10,7 @@ export const logger = createLogger({
         new transports.File({
             maxsize: 5120000,
             maxFiles: 5,
-            filename: `&{_dirname}/../logger/logerror.log`
+            filename: `logger/logerror.log`
         }),
         new transports.Console({
             level: 'debug'
