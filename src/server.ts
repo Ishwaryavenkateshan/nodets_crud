@@ -12,32 +12,19 @@ import { server_Info } from './utils/const';
 
 dotenv.config({ path: __dirname + '/.env' });
 
-export class UserServer {
-    constructor(private userRoute: UserRouter) {
-        this.start();
-    }
-
-    start(): void {
-        const app: express.Application = express();
-        app.use(cors())
-        app.use(express.json());
-
-        new MongoConfig()
-        app.get('/', (req, res) => {
-            res.send({ status: "Success" });
-        });
-        this.userRoute.userRouter(app)
-        app.listen(5001, () => {
-            logger.info(server_Info);
-        });
-    }
-}
-
-
-const userjwt = new JwtToken()
 const userdao = new UserDao()
 const userservice = new UserService(userdao)
+const userjwt = new JwtToken()
 const jwttoken = new JwtToken()
 const usercontroller = new UserController(userservice, jwttoken)
 const userrouter = new UserRouter(usercontroller, userjwt)
-new UserServer(userrouter)
+const app: express.Application = express();
+app.use(cors());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+new MongoConfig();
+userrouter.userRouter(app)
+app.listen(5001, () => {
+    logger.info(server_Info);
+    });
+export default app;

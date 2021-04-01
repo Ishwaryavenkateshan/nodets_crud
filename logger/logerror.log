@@ -159,3 +159,300 @@ info: Server running on port 4000
 2021-03-30T11:19:06.907Z info : UserController--userCreate--calling
 2021-03-30T11:19:06.908Z info : UserService--userCreate--calling
 2021-03-30T11:19:06.909Z info : UserDao--userCreate--calling
+2021-03-31T06:16:43.808Z info : Server running on port 5000
+2021-03-31T06:16:43.831Z info : Database connected
+2021-03-31T09:46:22.302Z info : Server running on port 5000
+2021-03-31T09:46:22.376Z info : Database connected
+2021-04-01T04:50:57.550Z info : Server running on port 5000
+2021-04-01T04:50:57.575Z info : Database connected
+2021-04-01T04:56:41.324Z info : Server running on port 5000
+2021-04-01T04:56:41.349Z info : Database connected
+2021-04-01T07:03:51.356Z info : Server running on port 5000
+2021-04-01T07:03:51.474Z info : UserController--userCreate--calling
+2021-04-01T07:03:51.475Z info : UserService--userCreate--calling
+2021-04-01T07:03:51.475Z info : UserDao--userCreate--calling
+2021-04-01T07:03:51.497Z info : Database connected
+2021-04-01T07:04:46.460Z info : Server running on port 5000
+2021-04-01T07:04:46.518Z info : UserController--userCreate--calling
+2021-04-01T07:04:46.519Z info : UserService--userCreate--calling
+2021-04-01T07:04:46.519Z info : UserDao--userCreate--calling
+2021-04-01T07:04:46.540Z info : Database connected
+2021-04-01T07:13:41.981Z info : Server running on port 5000
+2021-04-01T07:13:42.033Z info : UserController--userCreate--calling
+2021-04-01T07:13:42.034Z info : UserService--userCreate--calling
+2021-04-01T07:13:42.034Z info : UserDao--userCreate--calling
+2021-04-01T07:13:42.045Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T07:13:42.064Z info : Database connected
+2021-04-01T07:17:54.027Z info : Server running on port 5000
+2021-04-01T07:17:54.080Z info : UserController--userCreate--calling
+2021-04-01T07:17:54.081Z info : UserService--userCreate--calling
+2021-04-01T07:17:54.082Z info : UserDao--userCreate--calling
+2021-04-01T07:17:54.109Z info : Database connected
+2021-04-01T07:17:54.131Z info : UserController--userCreate--calling
+2021-04-01T07:17:54.131Z info : UserService--userCreate--calling
+2021-04-01T07:17:54.132Z info : UserDao--userCreate--calling
+2021-04-01T07:17:54.134Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T07:34:23.996Z info : Server running on port 5000
+2021-04-01T07:34:24.071Z info : Database connected
+2021-04-01T08:42:44.602Z info : Server running on port 5000
+2021-04-01T08:42:44.720Z info : Database connected
+2021-04-01T08:43:41.190Z info : Server running on port 5000
+2021-04-01T08:43:41.224Z info : UserController--userCreate--calling
+2021-04-01T08:43:41.224Z info : UserService--userCreate--calling
+2021-04-01T08:43:41.225Z info : UserDao--userCreate--calling
+2021-04-01T08:43:41.246Z info : Database connected
+2021-04-01T08:43:41.269Z info : UserController--userCreate--calling
+2021-04-01T08:43:41.269Z info : UserService--userCreate--calling
+2021-04-01T08:43:41.270Z info : UserDao--userCreate--calling
+2021-04-01T08:43:41.272Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T08:44:48.431Z info : Server running on port 5000
+2021-04-01T08:44:48.464Z info : UserController--userCreate--calling
+2021-04-01T08:44:48.464Z info : UserService--userCreate--calling
+2021-04-01T08:44:48.465Z info : UserDao--userCreate--calling
+2021-04-01T08:44:48.486Z info : Database connected
+2021-04-01T08:44:48.509Z info : UserController--userCreate--calling
+2021-04-01T08:44:48.509Z info : UserService--userCreate--calling
+2021-04-01T08:44:48.509Z info : UserDao--userCreate--calling
+2021-04-01T08:44:48.511Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T08:52:51.935Z info : Server running on port 5000
+2021-04-01T08:52:51.974Z info : UserController--userCreate--calling
+2021-04-01T08:52:51.975Z info : UserService--userCreate--calling
+2021-04-01T08:52:51.976Z info : UserDao--userCreate--calling
+2021-04-01T08:52:51.997Z info : Database connected
+2021-04-01T08:52:52.039Z info : UserController--userCreate--calling
+2021-04-01T08:52:52.039Z info : UserService--userCreate--calling
+2021-04-01T08:52:52.040Z info : UserDao--userCreate--calling
+2021-04-01T08:52:52.042Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T08:52:52.050Z info : UserController--userReadAll--calling
+2021-04-01T08:52:52.050Z info : UserService--userReadAll--calling
+2021-04-01T08:52:52.051Z info : UserDao--userRead--calling
+2021-04-01T08:53:50.501Z info : Server running on port 5000
+2021-04-01T08:53:50.534Z info : UserController--userCreate--calling
+2021-04-01T08:53:50.534Z info : UserService--userCreate--calling
+2021-04-01T08:53:50.535Z info : UserDao--userCreate--calling
+2021-04-01T08:53:50.557Z info : Database connected
+2021-04-01T08:53:50.598Z info : UserController--userCreate--calling
+2021-04-01T08:53:50.599Z info : UserService--userCreate--calling
+2021-04-01T08:53:50.599Z info : UserDao--userCreate--calling
+2021-04-01T08:53:50.601Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T08:53:50.609Z info : UserController--userReadAll--calling
+2021-04-01T08:53:50.610Z info : UserService--userReadAll--calling
+2021-04-01T08:53:50.610Z info : UserDao--userRead--calling
+2021-04-01T08:54:50.648Z info : Server running on port 5000
+2021-04-01T08:54:50.681Z info : UserController--userCreate--calling
+2021-04-01T08:54:50.681Z info : UserService--userCreate--calling
+2021-04-01T08:54:50.682Z info : UserDao--userCreate--calling
+2021-04-01T08:54:50.703Z info : Database connected
+2021-04-01T08:54:50.745Z info : UserController--userCreate--calling
+2021-04-01T08:54:50.745Z info : UserService--userCreate--calling
+2021-04-01T08:54:50.746Z info : UserDao--userCreate--calling
+2021-04-01T08:54:50.748Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T08:54:50.755Z info : UserController--userReadAll--calling
+2021-04-01T08:54:50.756Z info : UserService--userReadAll--calling
+2021-04-01T08:54:50.756Z info : UserDao--userRead--calling
+2021-04-01T08:57:14.931Z info : Server running on port 5000
+2021-04-01T08:57:14.964Z info : UserController--userCreate--calling
+2021-04-01T08:57:14.965Z info : UserService--userCreate--calling
+2021-04-01T08:57:14.965Z info : UserDao--userCreate--calling
+2021-04-01T08:57:14.987Z info : Database connected
+2021-04-01T08:57:15.029Z info : UserController--userCreate--calling
+2021-04-01T08:57:15.029Z info : UserService--userCreate--calling
+2021-04-01T08:57:15.030Z info : UserDao--userCreate--calling
+2021-04-01T08:57:15.032Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T08:57:15.039Z info : UserController--userReadAll--calling
+2021-04-01T08:57:15.040Z info : UserService--userReadAll--calling
+2021-04-01T08:57:15.040Z info : UserDao--userRead--calling
+2021-04-01T09:11:55.723Z info : Server running on port 5000
+2021-04-01T09:11:55.763Z info : UserController--userCreate--calling
+2021-04-01T09:11:55.763Z info : UserService--userCreate--calling
+2021-04-01T09:11:55.764Z info : UserDao--userCreate--calling
+2021-04-01T09:11:55.785Z info : Database connected
+2021-04-01T09:11:55.827Z info : UserController--userCreate--calling
+2021-04-01T09:11:55.827Z info : UserService--userCreate--calling
+2021-04-01T09:11:55.827Z info : UserDao--userCreate--calling
+2021-04-01T09:11:55.830Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T09:11:55.837Z info : UserController--userReadAll--calling
+2021-04-01T09:11:55.837Z info : UserService--userReadAll--calling
+2021-04-01T09:11:55.838Z info : UserDao--userRead--calling
+2021-04-01T09:16:08.607Z info : Server running on port 5000
+2021-04-01T09:16:08.648Z info : UserController--userCreate--calling
+2021-04-01T09:16:08.648Z info : UserService--userCreate--calling
+2021-04-01T09:16:08.649Z info : UserDao--userCreate--calling
+2021-04-01T09:16:08.670Z info : Database connected
+2021-04-01T09:16:08.716Z info : UserController--userCreate--calling
+2021-04-01T09:16:08.717Z info : UserService--userCreate--calling
+2021-04-01T09:16:08.717Z info : UserDao--userCreate--calling
+2021-04-01T09:16:08.719Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T09:16:08.726Z info : UserController--userReadAll--calling
+2021-04-01T09:16:08.726Z info : UserService--userReadAll--calling
+2021-04-01T09:16:08.727Z info : UserDao--userRead--calling
+2021-04-01T09:17:30.516Z info : Server running on port 5000
+2021-04-01T09:17:30.574Z info : UserController--userCreate--calling
+2021-04-01T09:17:30.575Z info : UserService--userCreate--calling
+2021-04-01T09:17:30.577Z info : UserDao--userCreate--calling
+2021-04-01T09:17:30.612Z info : Database connected
+2021-04-01T09:17:30.707Z info : UserController--userCreate--calling
+2021-04-01T09:17:30.707Z info : UserService--userCreate--calling
+2021-04-01T09:17:30.708Z info : UserDao--userCreate--calling
+2021-04-01T09:17:30.712Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T09:17:30.739Z info : UserController--userReadAll--calling
+2021-04-01T09:17:30.740Z info : UserService--userReadAll--calling
+2021-04-01T09:17:30.741Z info : UserDao--userRead--calling
+2021-04-01T09:24:10.525Z info : Server running on port 5000
+2021-04-01T09:24:10.600Z info : Database connected
+2021-04-01T09:26:36.243Z info : UserController--userCreate--calling
+2021-04-01T09:26:36.245Z info : UserService--userCreate--calling
+2021-04-01T09:26:36.246Z info : UserDao--userCreate--calling
+2021-04-01T09:27:13.792Z info : UserController--userReadAll--calling
+2021-04-01T09:27:13.793Z info : UserService--userReadAll--calling
+2021-04-01T09:27:13.794Z info : UserDao--userRead--calling
+2021-04-01T09:27:59.582Z info : UserController--userRead--calling
+2021-04-01T09:27:59.582Z info : UserService--userRead--calling
+2021-04-01T09:27:59.583Z info : UserDao--userReadAll--calling
+2021-04-01T09:28:08.771Z info : UserController--userDelete--calling
+2021-04-01T09:28:08.772Z info : UserService--userDelete--calling
+2021-04-01T09:28:08.772Z info : UserDao--userDelete--calling
+2021-04-01T09:29:43.555Z info : UserController--userCreate--calling
+2021-04-01T09:29:43.557Z info : UserService--userCreate--calling
+2021-04-01T09:29:43.557Z info : UserDao--userCreate--calling
+2021-04-01T09:29:43.571Z info : UserController--userCreate--calling
+2021-04-01T09:29:43.571Z info : UserService--userCreate--calling
+2021-04-01T09:29:43.571Z info : UserDao--userCreate--calling
+2021-04-01T09:29:43.574Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T09:29:43.590Z info : Database connected
+2021-04-01T09:30:36.855Z info : UserController--userCreate--calling
+2021-04-01T09:30:36.858Z info : UserService--userCreate--calling
+2021-04-01T09:30:36.858Z info : UserDao--userCreate--calling
+2021-04-01T09:30:36.871Z info : UserController--userCreate--calling
+2021-04-01T09:30:36.872Z info : UserService--userCreate--calling
+2021-04-01T09:30:36.872Z info : UserDao--userCreate--calling
+2021-04-01T09:30:36.874Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T09:30:36.887Z info : Database connected
+2021-04-01T09:32:28.721Z info : Server running on port 5000
+2021-04-01T09:32:28.754Z info : UserController--userCreate--calling
+2021-04-01T09:32:28.755Z info : UserService--userCreate--calling
+2021-04-01T09:32:28.755Z info : UserDao--userCreate--calling
+2021-04-01T09:32:28.776Z info : Database connected
+2021-04-01T09:32:28.825Z info : UserController--userCreate--calling
+2021-04-01T09:32:28.825Z info : UserService--userCreate--calling
+2021-04-01T09:32:28.826Z info : UserDao--userCreate--calling
+2021-04-01T09:32:28.829Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T09:32:28.836Z info : UserController--userReadAll--calling
+2021-04-01T09:32:28.836Z info : UserService--userReadAll--calling
+2021-04-01T09:32:28.836Z info : UserDao--userRead--calling
+2021-04-01T09:39:23.648Z info : Server running on port 5000
+2021-04-01T09:39:23.690Z info : UserController--userCreate--calling
+2021-04-01T09:39:23.691Z info : UserService--userCreate--calling
+2021-04-01T09:39:23.691Z info : UserDao--userCreate--calling
+2021-04-01T09:39:23.712Z info : Database connected
+2021-04-01T09:39:23.764Z info : UserController--userCreate--calling
+2021-04-01T09:39:23.764Z info : UserService--userCreate--calling
+2021-04-01T09:39:23.765Z info : UserDao--userCreate--calling
+2021-04-01T09:39:23.767Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T09:39:23.774Z info : UserController--userReadAll--calling
+2021-04-01T09:39:23.774Z info : UserService--userReadAll--calling
+2021-04-01T09:39:23.775Z info : UserDao--userRead--calling
+2021-04-01T09:41:10.127Z info : Server running on port 5000
+2021-04-01T09:41:10.165Z info : UserController--userCreate--calling
+2021-04-01T09:41:10.166Z info : UserService--userCreate--calling
+2021-04-01T09:41:10.166Z info : UserDao--userCreate--calling
+2021-04-01T09:41:10.188Z info : Database connected
+2021-04-01T09:41:10.231Z info : UserController--userCreate--calling
+2021-04-01T09:41:10.232Z info : UserService--userCreate--calling
+2021-04-01T09:41:10.232Z info : UserDao--userCreate--calling
+2021-04-01T09:41:10.234Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T09:41:10.242Z info : UserController--userReadAll--calling
+2021-04-01T09:41:10.243Z info : UserService--userReadAll--calling
+2021-04-01T09:41:10.243Z info : UserDao--userRead--calling
+2021-04-01T09:41:10.275Z info : UserController--userDelete--calling
+2021-04-01T09:41:10.276Z info : UserService--userDelete--calling
+2021-04-01T09:41:10.276Z info : UserDao--userDelete--calling
+2021-04-01T09:41:10.278Z error : Cast to ObjectId failed for value "${id}" at path "_id" for model "user"
+2021-04-01T09:42:08.802Z info : Server running on port 5000
+2021-04-01T09:42:08.835Z info : UserController--userCreate--calling
+2021-04-01T09:42:08.836Z info : UserService--userCreate--calling
+2021-04-01T09:42:08.836Z info : UserDao--userCreate--calling
+2021-04-01T09:42:08.858Z info : Database connected
+2021-04-01T09:42:08.903Z info : UserController--userCreate--calling
+2021-04-01T09:42:08.903Z info : UserService--userCreate--calling
+2021-04-01T09:42:08.903Z info : UserDao--userCreate--calling
+2021-04-01T09:42:08.906Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T09:42:08.913Z info : UserController--userReadAll--calling
+2021-04-01T09:42:08.913Z info : UserService--userReadAll--calling
+2021-04-01T09:42:08.914Z info : UserDao--userRead--calling
+2021-04-01T09:42:08.942Z info : UserController--userDelete--calling
+2021-04-01T09:42:08.943Z info : UserService--userDelete--calling
+2021-04-01T09:42:08.943Z info : UserDao--userDelete--calling
+2021-04-01T09:42:08.945Z error : Cast to ObjectId failed for value "_id" at path "_id" for model "user"
+2021-04-01T09:45:20.825Z info : Server running on port 5000
+2021-04-01T09:45:20.864Z info : UserController--userCreate--calling
+2021-04-01T09:45:20.864Z info : UserService--userCreate--calling
+2021-04-01T09:45:20.865Z info : UserDao--userCreate--calling
+2021-04-01T09:45:20.886Z info : Database connected
+2021-04-01T09:45:20.930Z info : UserController--userCreate--calling
+2021-04-01T09:45:20.930Z info : UserService--userCreate--calling
+2021-04-01T09:45:20.931Z info : UserDao--userCreate--calling
+2021-04-01T09:45:20.933Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T09:45:20.940Z info : UserController--userReadAll--calling
+2021-04-01T09:45:20.941Z info : UserService--userReadAll--calling
+2021-04-01T09:45:20.941Z info : UserDao--userRead--calling
+2021-04-01T09:45:20.977Z info : UserController--userDelete--calling
+2021-04-01T09:45:20.977Z info : UserService--userDelete--calling
+2021-04-01T09:45:20.978Z info : UserDao--userDelete--calling
+2021-04-01T09:47:20.423Z info : Server running on port 5000
+2021-04-01T09:47:20.456Z info : UserController--userCreate--calling
+2021-04-01T09:47:20.456Z info : UserService--userCreate--calling
+2021-04-01T09:47:20.457Z info : UserDao--userCreate--calling
+2021-04-01T09:47:20.479Z info : Database connected
+2021-04-01T09:47:20.523Z info : UserController--userCreate--calling
+2021-04-01T09:47:20.523Z info : UserService--userCreate--calling
+2021-04-01T09:47:20.523Z info : UserDao--userCreate--calling
+2021-04-01T09:47:20.525Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T09:47:20.532Z info : UserController--userReadAll--calling
+2021-04-01T09:47:20.533Z info : UserService--userReadAll--calling
+2021-04-01T09:47:20.533Z info : UserDao--userRead--calling
+2021-04-01T09:47:20.569Z info : UserController--userDelete--calling
+2021-04-01T09:47:20.570Z info : UserService--userDelete--calling
+2021-04-01T09:47:20.570Z info : UserDao--userDelete--calling
+2021-04-01T09:47:20.579Z info : UserController--userRead--calling
+2021-04-01T09:47:20.579Z info : UserService--userRead--calling
+2021-04-01T09:47:20.580Z info : UserDao--userReadAll--calling
+2021-04-01T09:49:51.044Z info : Server running on port 5000
+2021-04-01T09:49:51.076Z info : UserController--userCreate--calling
+2021-04-01T09:49:51.077Z info : UserService--userCreate--calling
+2021-04-01T09:49:51.077Z info : UserDao--userCreate--calling
+2021-04-01T09:49:51.099Z info : Database connected
+2021-04-01T09:49:51.142Z info : UserController--userCreate--calling
+2021-04-01T09:49:51.143Z info : UserService--userCreate--calling
+2021-04-01T09:49:51.143Z info : UserDao--userCreate--calling
+2021-04-01T09:49:51.145Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T09:49:51.152Z info : UserController--userReadAll--calling
+2021-04-01T09:49:51.153Z info : UserService--userReadAll--calling
+2021-04-01T09:49:51.153Z info : UserDao--userRead--calling
+2021-04-01T09:49:51.181Z info : UserController--userDelete--calling
+2021-04-01T09:49:51.181Z info : UserService--userDelete--calling
+2021-04-01T09:49:51.182Z info : UserDao--userDelete--calling
+2021-04-01T09:49:51.191Z info : UserController--userRead--calling
+2021-04-01T09:49:51.191Z info : UserService--userRead--calling
+2021-04-01T09:49:51.191Z info : UserDao--userReadAll--calling
+2021-04-01T09:53:52.288Z info : Server running on port 5000
+2021-04-01T09:53:52.328Z info : UserController--userCreate--calling
+2021-04-01T09:53:52.329Z info : UserService--userCreate--calling
+2021-04-01T09:53:52.329Z info : UserDao--userCreate--calling
+2021-04-01T09:53:52.351Z info : Database connected
+2021-04-01T09:53:52.395Z info : UserController--userCreate--calling
+2021-04-01T09:53:52.395Z info : UserService--userCreate--calling
+2021-04-01T09:53:52.396Z info : UserDao--userCreate--calling
+2021-04-01T09:53:52.398Z error : user validation failed: Name: Path `Name` is required.
+2021-04-01T09:53:52.405Z info : UserController--userReadAll--calling
+2021-04-01T09:53:52.405Z info : UserService--userReadAll--calling
+2021-04-01T09:53:52.406Z info : UserDao--userRead--calling
+2021-04-01T09:53:52.435Z info : UserController--userUpdate--calling
+2021-04-01T09:53:52.435Z info : UserService--userUpdate--calling
+2021-04-01T09:53:52.435Z info : UserDao--userUpdate--calling
+2021-04-01T09:53:52.452Z info : UserController--userRead--calling
+2021-04-01T09:53:52.453Z info : UserService--userRead--calling
+2021-04-01T09:53:52.453Z info : UserDao--userReadAll--calling
+2021-04-01T09:53:52.468Z info : UserController--userDelete--calling
+2021-04-01T09:53:52.469Z info : UserService--userDelete--calling
+2021-04-01T09:53:52.469Z info : UserDao--userDelete--calling
